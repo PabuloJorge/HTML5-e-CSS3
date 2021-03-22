@@ -1,0 +1,35 @@
+body{
+    width: 80%;
+    background-color: black;
+    margin: auto;
+    
+}
+.main{
+  margin: 100cxpx auto;
+  width: 90%;
+  background: rgb(144, 250, 215);
+  padding: 20px;
+  color: black;
+  text-align: center;
+  align-items: center;
+  border-radius: 5%;
+}
+.img-perfil{
+    width: 150px;
+    height: 150px;
+    background-image: url(./img/perfil.png);
+    border: solid 2px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.links{
+    width: 25px;
+    height: 25px;
+}
+
+.redes a{
+    padding: 10px;
+}
+
