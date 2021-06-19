@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontes em CSS</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        /* geralmente 1em = 16px, nesse caso 2em = 32px */
+        /* normalmente o tamanho padrão atribuído a fonte pelo navegador é de 16px */
+        font-size: 1em;
+        /* lighter, normal, bold, bolder ou 100 a 900 - Apenas algumas fontes têm todas essas características */
+        font-weight: normal; 
+        font-style: italic;
+        text-decoration: underline;
+      }
+
+      h1 {
+    
+      /* font-family: 'Times New Roman', Times, serif;
+      font-weight: normal;
+      font-size: 3em;
+      font-style: italic; */
+
+       /* shorthand font
+       ordem: font-style -> font-weight -> font-size -> font-family 
+        */
+      
+      font: italic normal 3em 'Times New Roman', Times, serif;
+      
+      }
+
+      h2{
+        font: normal 2em 'Times New Roman', Times, serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Trabalhando com fontes</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+      laudantium magni veniam, fugiat exercitationem sequi amet nisi laboriosam
+      pariatur maiores? Commodi vero voluptas veniam laborum natus earum
+      voluptatum vel ad?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+      laudantium magni veniam, fugiat exercitationem sequi amet nisi laboriosam
+      pariatur maiores? Commodi vero voluptas veniam laborum natus earum
+      voluptatum vel ad?
+    </p>
+    <h2>Subtítulo</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+      laudantium magni veniam, fugiat exercitationem sequi amet nisi laboriosam
+      pariatur maiores? Commodi vero voluptas veniam laborum natus earum
+      voluptatum vel ad?
+    </p>
+  </body>
+</html>
